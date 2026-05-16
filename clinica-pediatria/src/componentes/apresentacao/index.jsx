@@ -1,6 +1,9 @@
 import estilos from "./apresentacao.module.css";
 import { retornaMedicos } from "@/app/dados/dados";
 import { FaRegUser } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
+
 
 
 export default async function Apresentacao() {
@@ -19,6 +22,16 @@ export default async function Apresentacao() {
                             </div>
                             <h3 className={estilos.nome_medico}>{medico.nomeMedico}</h3>
                             <p className={estilos.especialidades_medico}>{medico.Especialidades}</p>
+                            <div className={estilos.info_contato}>
+                                <div className={estilos.item_contato}>
+                                     <FaPhoneAlt />
+                                    <span>{medico.Telefone}</span>
+                                </div>
+                                <div className={estilos.item_contato}>
+                                    <MdOutlineMail />
+                                    <span>{medico.Email}</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 ))}
