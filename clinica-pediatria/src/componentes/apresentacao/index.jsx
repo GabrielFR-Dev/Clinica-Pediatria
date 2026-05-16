@@ -18,7 +18,7 @@ export default async function Apresentacao() {
                     <div key={medico.id} className={estilos.cartao_medico}>
                         <div className={estilos.conteudo_medico}>
                             <div className={estilos.container_avatar}>
-                                <FaRegUser />
+                                <FaRegUser className={estilos.avatar}/>
                             </div>
                             <h3 className={estilos.nome_medico}>{medico.nomeMedico}</h3>
                             <p className={estilos.especialidades_medico}>{medico.Especialidades}</p>
