@@ -1,4 +1,4 @@
-.container_apresentacao{
+.container_apresentacao {
     width: 100%;
     background-color: rgb(241, 241, 241);
     display: flex;
@@ -7,7 +7,7 @@
     padding: 50px 0;
     gap: 25px;
     align-items: center;
-     
+
 }
 
 .container_medicos {
@@ -21,12 +21,21 @@
     justify-content: center;
     align-items: center;
    
+
 }
 
 .cartao_medico {
     background-color: rgb(255, 255, 255);
     padding: 30px 25px;
-    
+    border-radius: 10%;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.cartao_medico:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.24);
+    transform: translateY(-10px) scale(1.03);
 }
 
 .avatar {
@@ -34,14 +43,16 @@
     border-radius: 40%;
     font-size: 25px;
     color: white;
-    background-color:#225CE5;
-    
+    background-color: #225CE5;
+
 }
+
 .conteudo_medico {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 .info {
     color: #225CE5;
 }
