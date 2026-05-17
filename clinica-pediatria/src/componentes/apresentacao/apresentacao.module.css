@@ -2,27 +2,34 @@
     width: 100%;
     background-color: rgb(241, 241, 241);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     padding: 50px 0;
     gap: 25px;
     align-items: center;
+    
+    
 }
 
 .container_medicos {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-
+    width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 15px auto;
+    
     text-align: center;
+    justify-content: center;
 }
 
 .cartao_medico {
     background-color: rgb(255, 255, 255);
     padding: 30px 25px;
+
+    
+    width: 100%;
+    max-width: 320px;
     
 }
 
@@ -38,7 +45,6 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
 }
 .info {
     color: #225CE5;
