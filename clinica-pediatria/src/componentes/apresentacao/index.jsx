@@ -24,11 +24,11 @@ export default async function Apresentacao() {
                             <p className={estilos.especialidades_medico}>{medico.Especialidades}</p>
                             <div className={estilos.info_contato}>
                                 <div className={estilos.item_contato}>
-                                     <FaPhoneAlt />
+                                     <FaPhoneAlt className={estilos.info}/>
                                     <span>{medico.Telefone}</span>
                                 </div>
                                 <div className={estilos.item_contato}>
-                                    <MdOutlineMail />
+                                    <MdOutlineMail className={estilos.info} />
                                     <span>{medico.Email}</span>
                                 </div>
                             </div>
