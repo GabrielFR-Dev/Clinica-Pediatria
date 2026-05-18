@@ -1,4 +1,17 @@
+<div align="center">
+
 # 🏥 Clínica Pediátrica
+
+<img 
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=225CE5&center=true&vCenter=true&width=900&lines=Aplica%C3%A7%C3%A3o+Full+Stack;Next.js+%2B+Node.js+%2B+MySQL;API+REST+%2B+Axios;CSS+Moderno+e+Responsivo;Projeto+Desenvolvido+do+Zero" 
+    alt="Typing SVG" 
+/>
+
+</div>
+
+---
+
+# 📌 Sobre o Projeto
 
 Aplicação Full Stack desenvolvida com foco em praticar conceitos modernos de desenvolvimento web, trabalhando desde a modelagem do banco de dados até o consumo de API no front-end.
 
@@ -113,3 +126,11 @@ Desenvolvido por Gabriel Ferreira 🚀
 
 🔗 GitHub:  
 https://github.com/GabrielFR-Dev
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=225CE5&height=120&section=footer"/>
+
+</div>
