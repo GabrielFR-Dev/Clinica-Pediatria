@@ -8,7 +8,7 @@ export default function Topo() {
         <header className={estilos.container_topo}>
             <div className={estilos.topo}>
                 <h1 className={estilos.titulo}>
-                    Clínica de Pediatria
+                    Clínica Pediátrica
                 </h1>
                 <p className={estilos.subTitulo}>Cuidando da sua saúde com excelência e dedicação</p>
             </div>
